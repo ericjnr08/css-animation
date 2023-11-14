@@ -10,8 +10,56 @@
     <h1>Registration Form</h1>
 
     <form action="https://formsubmit.co/ericjnr.ed@gmail.com" method="POST">
+        
+        <div>
+        <label>User id:</label>
+        <input type="id" name="User id" id="" placeholder="Required, length og 5 to 12 characters">
 
-        <input type="number" name="User id" id="" placeholder="Required, length og 5 to 12 characters">
+    </div>
+    <br>
+
+    <div>
+        <label>Password:</label>
+        <input type="password" name="password" id="" placeholder="Required length of 7 to 12 characters" 
+        minlength="7" maxlength="12">
+
+    </div>
+    <br>
+
+    <div>
+
+        <label>Name</label>
+        <input type="name" name="name" id="" placeholder="Required, letters only">
+
+    </div>
+    <br>
+
+    <div>
+
+        <label>Address</label>
+        <input type="name" name="Address" id="" placeholder="Optional">
+
+    </div>
+    <br>
+
+    <div>
+
+        <label for="country">Country:</label>
+        <input list="country" id="country" name="country"/>
+
+        <datalist id="country">
+            <option value="Angola"></option>
+            <option value="Botswana"></option>
+            <option value="Lesotho"></option>
+            <option value="Mozambique"></option>
+        </datalist>
+    </div>
+    <br>
+
+    <div>
+
+        <label>ZIP Code:</label>
+    </div>
     
 
 </body>
