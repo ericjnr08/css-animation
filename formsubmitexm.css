@@ -1,0 +1,13 @@
+body {
+    padding: 20px;
+    margin-top: 0%;
+}
+
+#idplaceholder{
+    color: red;
+}
+
+input[type=id],
+::placeholder {
+    color: red;
+}

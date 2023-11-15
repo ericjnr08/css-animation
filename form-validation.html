@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validation Exercise</title>
+    <link rel="stylesheet" href="C:\Users\Eric\Desktop\MyCodeSpaceProjects\Resume\resume 1-2\css-animation\css-animation\formsubmitexm.css">
 </head>
 <body>
 
@@ -13,14 +14,14 @@
         
         <div>
         <label>User id:</label>
-        <input type="id" name="User id" id="" placeholder="Required, length og 5 to 12 characters">
+        <input type="id" name="User id" id="ID" placeholder="Required, length og 5 to 12 characters">
 
     </div>
     <br>
 
     <div>
         <label>Password:</label>
-        <input type="password" name="password" id="" placeholder="Required length of 7 to 12 characters" 
+        <input type="password" name="password" id="pass" placeholder="Required length of 7 to 12 characters" 
         minlength="7" maxlength="12">
 
     </div>
@@ -59,8 +60,54 @@
     <div>
 
         <label>ZIP Code:</label>
+        <input type="code" name="ZIP" id="" placeholder="Required, numeric only">
+
     </div>
-    
+    <br>
+
+    <div>
+
+        <label>Email:</label>
+        <input type="email" name="email" id="" placeholder="Required, valid email address only">
+
+    </div>
+    <br>
+
+    <div>
+
+        <label>Sex:</label>
+        <input type="radio" name="sexM" id="sexM" value="Male">
+        <label for="sexM">Male</label>
+
+        <input type="radio" name="sexF" id="sexF" value="Female" placeholder="Required">
+        <label for="sexF">Female</label>
+    </div>
+    <br>
+
+    <div>
+
+        <label>Languages:</label>
+        <input type="radio" name="English" id="language1" value="English">
+        <label for="language1">English</label>
+
+        <input type="radio" name="Non-English" id="language2" value="Non-English">
+        <label for="language2">Non-English</label>
+    </div>
+    <br>
+
+    <div>
+
+        <label>About:</label>
+        <textarea name="message" id="text" cols="30" rows="10" placeholder="Optional"></textarea>
+    </div>
+    <br>
+
+    <div>
+
+        <input type="submit">
+    </div>
+
+
 
 </body>
 </html>
